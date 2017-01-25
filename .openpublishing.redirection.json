@@ -2,8 +2,8 @@
   "redirections": [ 
     {   
         "source_path": "test_e2e/redirectPage.md", 
-        "redirect_url": "http://www.baidu.com/", 
-        "redirect_document_id": true 
+        "redirect_url": "/test_e2e/syntaxConfig.md", 
+        "redirect_document_id": false 
     }
   ] 
 }
