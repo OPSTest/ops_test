@@ -2,7 +2,7 @@
   "redirections": [ 
     {   
         "source_path": "test_e2e/redirect.md", 
-        "redirect_url": "/test_e2e/syntaxConfig.md", 
+        "redirect_url": "/test_e2e/syntaxConfig", 
         "redirect_document_id": false 
     }
   ] 
