@@ -1,0 +1,9 @@
+{ 
+  "redirections": [ 
+    {   
+        "source_path": "abc/def.md", 
+        "redirect_url": "/abc/xyz", 
+        "redirect_document_id": true 
+    }
+  ] 
+}
