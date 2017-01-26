@@ -1,8 +1,8 @@
 { 
   "redirections": [ 
     {   
-        "source_path": "", 
-        "redirect_url": "", 
+        "source_path": , 
+        "redirect_url": , 
         "redirect_document_id": false 
     }
   ] 
