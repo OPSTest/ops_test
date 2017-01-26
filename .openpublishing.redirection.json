@@ -2,7 +2,7 @@
   "redirections": [ 
     {   
         "source_path": , 
-        "redirect_url": , 
+        "redirect_url":"/test_e2e/howTo", 
         "redirect_document_id": false 
     }
   ] 
