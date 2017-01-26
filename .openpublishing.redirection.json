@@ -1,7 +1,7 @@
 { 
   "redirections": [ 
     {   
-        "source_path": "test_e2e/redirect.md", 
+        "source_path": "", 
         "redirect_url": "", 
         "redirect_document_id": false 
     }
