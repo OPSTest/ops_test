@@ -2,7 +2,7 @@
   "redirections": [ 
     {   
         "source_path": "test_e2e/haha", 
-        "redirect_url": "/test_e2e/howTo", 
+        "redirect_url": "http://www.baidu.com/", 
         "redirect_document_id": false 
     }
   ] 
