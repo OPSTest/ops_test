@@ -1,5 +1,10 @@
 { 
-  "redirections": [ 
+  "redirections": [
+    {
+        "source_path": "",
+        "redirect_url": "",
+        "redirect_document_id": false
+    },
     {   
         "source_path": "test_e2e/haha.md", 
         "redirect_url": "/test_e2e/howTo", 
