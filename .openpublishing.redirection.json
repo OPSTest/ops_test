@@ -1,14 +1,1 @@
-{
-        "redirections": [
-            {
-                "source_path": "test_e2e/test.md",
-                "redirect_url": "/test_e2e/howTo",
-                "redirect_document_id": false
-            },
-            {
-                "source_path": "test_e2e/test.md",
-                "redirect_url": "/test_e2e/howTo",
-                "redirect_document_id": false
-            }
-        ]
-    };
+{"redirections":[{"source_path":null,"redirect_url":null,"redirect_document_id":false},{"source_path":"test_e2e/test.md","redirect_url":"/test_e2e/howTo","redirect_document_id":false}]}
