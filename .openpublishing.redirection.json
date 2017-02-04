@@ -1,8 +1,8 @@
 { 
   "redirections": [
     {
-        "source_path": "/test_e2e/howTo.md",
-        "redirect_url": "http://www.baidu.com",
+        "source_path": null,
+        "redirect_url": null,
         "redirect_document_id": false
     },
     {   
