@@ -18,6 +18,10 @@
       "template_folder": "_themes"
     }
   ],
+  "branch_target_mapping": 
+    {
+    "master": ["Publish", "Pdf"]
+    },
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
