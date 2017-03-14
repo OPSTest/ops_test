@@ -10,8 +10,38 @@
           "test_e2e/**",
           "**/includes/**"
         ]
+      },
+      {
+        "files": [ 
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "version1.0-src",
+        "version": "version1.0",
+        "exclude": [
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "version1.1-src",
+        "version": "version1.1",
+        "exclude":[
+          "**/includes/**"
+        ]
       }
     ],
+    "version":{
+      "version1.0": {
+        "dest": "version1.0-dest"
+      },
+      "version1.1": {
+        "dest":
+      }
+    },
     "resource": [
       {
         "files": [
