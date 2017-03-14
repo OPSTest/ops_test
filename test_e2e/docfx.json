@@ -23,6 +23,10 @@
           "**/includes/**"
         ]
       }
+      {
+        "files": ["**/*.yml", "**/*.md"],
+        "src": "ops_test"
+      }
     ],
     "version":{
       "netstandard-1.0": {
