@@ -1,46 +1,65 @@
- {
+{
   "build": {
     "content": [
       {
-        "files": ["**/*.yml", "**/*.md"],
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "test_e2e/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [ 
+          "**/*.md",
+          "**/*.yml"
+        ],
         "src": "version1.0-src",
         "version": "netstandard-1.0",
         "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE"
+          "**/includes/**"
         ]
       },
       {
-        "files": ["**/*.yml", "**/*.md"],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
         "src": "version1.1-src",
         "version": "netstandard-1.1",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE"
+        "exclude":[
+          "**/includes/**"
         ]
-      },
-      {
-        "files": ["**/*.yml", "**/*.md"],
-        "src": "ops_test"
-      },
-      {
-        "files": ["*.md", "*.yml"]
       }
     ],
-    "versions": {
+    "version":{
       "netstandard-1.0": {
-        "dest": "netstandard-1.0-desk"
+        "dest": "netstandard-1.0-dest"
       },
       "netstandard-1.1": {
-        "dest": "netstandard-1.1-desk"
+        "dest":"netstandard-1.1-dest"
       }
     },
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "test_e2e/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [],
     "dest": "test_e2e"
   }
 }
