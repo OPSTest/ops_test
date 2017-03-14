@@ -48,6 +48,11 @@
         "dest":"netstandard-1.1-dest"
       }
     },
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [],
     "dest": "test_e2e"
   }
 }
