@@ -16,7 +16,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "netstandard-1.0-src",
+        "src": "version1.0-src",
         "version": "netstandard-1.0",
         "exclude": [
           "**/includes/**"
@@ -27,7 +27,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "netstandard-1.1-src",
+        "src": "versioin1.1-src",
         "version": "netstandard-1.1",
         "exclude":[
           "**/includes/**"
