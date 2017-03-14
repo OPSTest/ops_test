@@ -16,8 +16,8 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "version1.0-src",
-        "version": "version1.0",
+        "src": "netstandard-1.0-src",
+        "version": "netstandard-1.0",
         "exclude": [
           "**/includes/**"
         ]
@@ -27,8 +27,8 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "version1.1-src",
-        "version": "version1.1",
+        "src": "netstandard-1.1-src",
+        "version": "netstandard-1.1",
         "exclude":[
           "**/includes/**"
         ]
@@ -36,10 +36,10 @@
     ],
     "version":{
       "version1.0": {
-        "dest": "version1.0-dest"
+        "dest": "vnetstandard-1.0-dest"
       },
       "version1.1": {
-        "dest":"version1.1-dest"
+        "dest":"netstandard-1.1-dest"
       }
     },
     "resource": [
