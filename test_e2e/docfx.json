@@ -22,7 +22,7 @@
         "exclude":[
           "**/includes/**"
         ]
-      }
+      },
       {
         "files": ["**/*.yml", "**/*.md"],
         "src": "ops_test"
