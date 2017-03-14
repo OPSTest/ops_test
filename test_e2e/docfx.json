@@ -52,7 +52,7 @@
     "externalReference": [],
     "globalMetadata": {},
     "fileMetadata": {},
-    "template": ["DOCS"],
+    "template": [],
     "dest": "test_e2e"
   }
 }
