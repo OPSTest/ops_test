@@ -39,7 +39,7 @@
         "dest": "version1.0-dest"
       },
       "version1.1": {
-        "dest":
+        "dest":"version1.1-dest"
       }
     },
     "resource": [
