@@ -35,10 +35,10 @@
       }
     ],
     "version":{
-      "version1.0": {
-        "dest": "vnetstandard-1.0-dest"
+      "netstandard-1.0": {
+        "dest": "netstandard-1.0-dest"
       },
-      "version1.1": {
+      "netstandard-1.1": {
         "dest":"netstandard-1.1-dest"
       }
     },
