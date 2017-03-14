@@ -2,16 +2,6 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "test_e2e/**",
-          "**/includes/**"
-        ]
-      },
-      {
         "files": [ 
           "**/*.md",
           "**/*.yml"
@@ -42,24 +32,6 @@
         "dest":"netstandard-1.1-dest"
       }
     },
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "test_e2e/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {},
-    "fileMetadata": {},
-    "template": [],
     "dest": "test_e2e"
   }
 }
