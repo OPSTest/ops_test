@@ -1,27 +1,7 @@
 {
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "docsets_to_publish": [
-    {
-      "docset_name": "test_e2e",
-      "build_source_folder": "test_e2e",
-      "build_output_subfolder": "test_e2e",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    }
-  ],
-  "branch_target_mapping": 
-    {
-    "master": ["Publish", "Pdf"]
-    },
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
@@ -34,5 +14,11 @@
       "branch_mapping": {}
     }
   ],
+  "branch_target_mapping": {
+    "master": [
+      "Publish",
+      "Pdf"
+    ]
+  },
   "need_generate_pdf_url_template": false
 }
